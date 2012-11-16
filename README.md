@@ -32,7 +32,7 @@ collapseMenu('Projects'); // Will collapse the Projects menu
 or
 
 ```js
-    collapseMenu(3); // Will collapse the third menu
+collapseMenu(3); // Will collapse the third menu
 ```
 
 If no option is passed all menus will automatically collapse and expand.
