@@ -27,12 +27,12 @@ function collapseMenu (menu) {
       if (li.is('.active') && li.text().toLowerCase() !== 'welcome') isActive = true;
     });
 
-    if (!cached[i]) cached.push({ el            : el
-                , titleEl       : titleEl
-                , titleText     : titleText
-                , titleElHeight : titleElOuterHeight
-                , elHeight      : elOuterHeight 
-                });
+    if (!cached[i]) cached.push({ el : el
+                                , titleEl       : titleEl
+                                , titleText     : titleText
+                                , titleElHeight : titleElOuterHeight
+                                , elHeight      : elOuterHeight 
+                                });
 
     // Set up some basic hooks & CSS
     el.css('overflow', 'hidden');
