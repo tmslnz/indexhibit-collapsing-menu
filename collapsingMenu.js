@@ -22,11 +22,9 @@ function collapseMenu (menu) {
     var isActive = false;
     var elOuterHeight = getOuterHeight(el);
 
-    items.each(function (i, el) {
-      el = $(el);
-      if (el.text().toLowerCase() !== 'welcome') {
-        if (el.is('.active')) isActive = true;
-      }
+    items.each(function (i, li) {
+      li = $(li);
+      if (li.is('.active') && li.text().toLowerCase() !== 'welcome') isActive = true;
     });
 
     if (!cached[i]) cached.push({ el            : el
