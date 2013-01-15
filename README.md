@@ -1,5 +1,5 @@
-Collapsing Menu for Indexhibit 1
-================================
+Collapsing Menu for Indexhibit 0.7x
+===================================
 
 **Version 1.0**
 
